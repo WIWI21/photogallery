@@ -1,0 +1,21 @@
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#image {
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 200px;
+    border: 1px solid #ccc;
+}
